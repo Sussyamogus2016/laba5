@@ -17,4 +17,3 @@ r = 0
 for i in range(1, n+1):
     r += (x**i)/math.factorial(i)
 print('Результат - ', r)
-print('dadad')
