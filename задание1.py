@@ -4,7 +4,7 @@ while True:
         if a > 0:
             break
     except:
-        print('Неверно >:(. Попробуйте еще раз')
+        print('Неверно. Попробуйте еще раз')
 
 while True:
     try:
@@ -12,7 +12,7 @@ while True:
         if (a > b) and (b > 0):
             break
     except:
-        print('Неверно >:(. Попробуйте еще раз')
+        print('Неверно. Попробуйте еще раз')
 while a >= b:
     a = a-b
 print('Незанятая часть a:', a)

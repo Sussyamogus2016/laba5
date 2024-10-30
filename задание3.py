@@ -9,5 +9,5 @@ for i in range(x0*100, 10000, 1):
     x = 0.01*i
     y = x * math.tan(a) + ((g*x**2)/(2*v**2*math.cos(a)**2))
     if y > 0:
-        print(x)
+        print('Точка, в которой снаряд "уйдет под землю": ', x)
         break
